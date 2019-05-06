@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.latest-work {
+    width: 100%;
+    height: 545px;
+    /* float: left; */
+    background-color: #660000;
+}
+
+div.conteiner-work-border {
+    width: 990px;
+    margin: auto;
+    /* position: relative; */
+    border-top: 3px solid black;
+}
+
+.work-item {
+    width: 303px;
+    height: 200px;
+    border: 3px solid white;
+    background-image: url(../source/elliot-mob.jpg);
+    background-color: #303030;
+    /* position: absolute; */
+    top: 40px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+}
+
+div.work-item:hover {
+    border: 3px solid #76c38f;
+    transition: 0.3s;
+}
+
+.work-item:hover .work-item-title {
+    background-color: #303030;
+    display: none;
+}
+
+.work-item-title {
+    position: absolute;
+    width: 100%;
+    background-color: #151515;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.work-item-h2 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
